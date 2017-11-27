@@ -175,3 +175,31 @@ section.content p {
     margin-bottom: 50px;
     line-height: 1.5em;
 }
+
+section.content section#team-area {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+section.content section#team-area div.team-member {
+    text-align: center;
+}
+
+section.content section#team-area div.team-member img {
+    width: calc(100% - 20px);
+    border-radius: 50%;
+}
+
+section.content section#team-area div.team-member h2 {
+    color: #2b2055;
+    margin: 30px 0 10px 0;
+    text-transform: uppercase;
+}
+
+section.content section#team-area div.team-member p {
+    font-size: 16px;
+}
