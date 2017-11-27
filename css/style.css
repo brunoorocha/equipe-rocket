@@ -187,6 +187,8 @@ section.content section#team-area {
 
 section.content section#team-area div.team-member {
     text-align: center;
+    align-self: auto;
+    max-width: 200px;
 }
 
 section.content section#team-area div.team-member img {
