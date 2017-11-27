@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans Pro";
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-family: "Rajdhani";
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+div.align {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+section#home-banner {
+    height: 100vh;
+}
+
+section#home-banner header.background-apply {
+    background-image: url('../images/space-background.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#home-banner header {
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+section#home-banner section#parallax-background {
+    background-image: url('../images/space-background.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    height: 100vh;
+}
+
+
+section#home-banner header img#header-logo {
+    width: 200px;
+    float: left;
+}
+
+section#home-banner header ul {
+    float: right;
+    list-style: none;
+}
+
+section#home-banner header ul li {
+    float: left;
+    margin: 20px;
+}
+
+section#home-banner header ul li a {
+    float: left;
+    font-family: "Rajdhani";
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section#home-banner section#banner-title {
+    margin: 0 auto;
+    margin-top: calc(50% - 460px);
+    width: 600px;
+}
+
+section#home-banner section#banner-title h1 {
+    font-size: 64px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+section#home-banner section#banner-title h3 {
+    font-size: 28px;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+section#home-banner div#planet-blue {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/planet-blue.png');
+    background-repeat: no-repeat;
+    background-position: 0px 300px;
+    z-index: 1;
+}
+
+section#home-banner div#planet-red {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/planet-red.png');
+    background-repeat: no-repeat;
+    background-position: 110% 100px;
+    z-index: 1;
+}
+
+section#home-banner div#surface {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+    background-image: url('../images/surface.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+section#home-banner div#surface p {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b2055;
+}
+
+section.content {
+    margin-top: 50px;
+    height: 100vh;
+}
+
+section.content h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #2b2055;
+    margin-bottom: 20px;
+}
+
+section.content p {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 50px;
+}
