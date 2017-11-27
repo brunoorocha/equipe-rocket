@@ -37,12 +37,14 @@ section#home-banner header.background-apply {
 }
 
 section#home-banner header {
-    padding: 20px 0;
+    padding: 15px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 60px;
     z-index: 2;
+
 }
 
 section#home-banner section#parallax-background {
@@ -69,7 +71,7 @@ section#home-banner header ul {
 
 section#home-banner header ul li {
     float: left;
-    margin: 20px;
+    margin: 18px 20px;
 }
 
 section#home-banner header ul li a {
@@ -80,6 +82,13 @@ section#home-banner header ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    transition: .2s;
+}
+
+section#home-banner header ul li a:hover {
+    border-bottom: 3px solid #fff;
 }
 
 section#home-banner section#banner-title {
@@ -147,10 +156,14 @@ section.content {
     height: 100vh;
 }
 
+section.content .align {
+    max-width: 1024px;
+}
+
 section.content h1 {
     font-size: 32px;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     color: #2b2055;
     margin-bottom: 20px;
 }
@@ -160,4 +173,5 @@ section.content p {
     font-size: 22px;
     color: #333;
     margin-bottom: 50px;
+    line-height: 1.5em;
 }
