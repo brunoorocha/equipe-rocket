@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <title>Equipe Rocket</title>
         <link href="https://fonts.googleapis.com/css?family=Rajdhani:700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+        <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="./js/app.js"></script>
     </head>
     <body>
@@ -15,9 +17,9 @@
                     <img src="./images/equiperocket-logo.png" alt="" id="header-logo">
 
                     <ul id="header-nav">
-                        <li><a href="#">missão</a></li>
-                        <li><a href="#">equipe</a></li>
-                        <li><a href="#">contato</a></li>
+                        <li><a id="missao" href="#">missão</a></li>
+                        <li><a id="equipe" href="#">equipe</a></li>
+                        <li><a id="contato" href="#">contato</a></li>
                     </ul>
                 </div>
             </header>
@@ -34,47 +36,66 @@
             <div id="planet-blue"></div>
             <div id="planet-red"></div>
 
-            <div id="surface">
+            <div class="surface">
                 <p>Role a página para saber mais</p>
             </div>
         </section>
 
         <section class="content">
             <div class="align">
-                <h1>Missão</h1>
+                <h1 class="missao">Missão</h1>
                 <p>Você tem a ideia, nós te ajudamos a fazê-la decolar!</p>
 
-                <h1>Equipe</h1>
+                <h1 class="equipe">Equipe</h1>
                 <p>Grandes missões pedem uma equipe apaixonada pelo que faz!
                 Por isso contamos com um grupo de pessoas focadas em levar
                 a tecnologia da informação para você e o seu negócio.</p>
 
                 <section id="team-area">
                     <div class="team-member">
-                        <img src="./images/userbg.png" alt="">
+                        <div class="imgCrop">
+                            <img src="./images/Alyne.jpeg" alt="">
+                        </div>
                         <h2>Alyne Alves</h2>
                         <p>Gerente de Testes e <br > Desenvolvedora Back-End</p>
                     </div>
 
                     <div class="team-member">
-                        <img src="./images/userbg.png" alt="">
+                        <div class="imgCrop">
+                            <img src="./images/Bianca.jpg" alt="">
+                        </div>
                         <h2>Bianca Souza</h2>
                         <p>Analista de Requisitos  e <br > Desenvolvedora Front-End</p>
                     </div>
 
                     <div class="team-member">
-                        <img src="./images/userbg.png" alt="">
+                        <div class="imgCrop">
+                            <img src="./images/Bruno.png" alt="">
+                        </div>
                         <h2>Bruno Rocha</h2>
                         <p>Gerente de Projetos e <br > Desenvolvedor Front-End</p>
                     </div>
 
                     <div class="team-member">
-                        <img src="./images/userbg.png" alt="">
-                        <h2>Victória Bispo</h2>
+                        <div class="imgCrop">
+                            <img src="./images/Victoria.jpeg" alt="">
+                        </div>
+                        <h2>Victoria Bispo</h2>
                         <p>Arquiteta de Sistemas e <br > Desenvolvedora Back-End</p>
                     </div>
                 </section>
             </div>
+
+            <footer class="contato">
+                <h1>Contato</h1>
+                <p>Envie-nos um email: <br ><b>mail.equiperocket@gmail.com<b></p>
+
+                <p>
+                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </p>
+            </footer>
         </section>
     </body>
 </html>

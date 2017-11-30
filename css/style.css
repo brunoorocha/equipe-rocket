@@ -87,7 +87,7 @@ section#home-banner header ul li a {
     transition: .2s;
 }
 
-section#home-banner header ul li a:hover {
+section#home-banner header ul li a:hover, section#home-banner header ul li a.active {
     border-bottom: 3px solid #fff;
 }
 
@@ -132,7 +132,7 @@ section#home-banner div#planet-red {
     z-index: 1;
 }
 
-section#home-banner div#surface {
+div.surface {
     float: left;
     width: 100%;
     height: 100px;
@@ -144,7 +144,7 @@ section#home-banner div#surface {
     text-align: center;
 }
 
-section#home-banner div#surface p {
+div.surface p {
     margin-top: 40px;
     font-size: 18px;
     font-weight: bold;
@@ -191,9 +191,15 @@ section.content section#team-area div.team-member {
     max-width: 200px;
 }
 
-section.content section#team-area div.team-member img {
-    width: calc(100% - 20px);
+section.content section#team-area div.team-member div.imgCrop {
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    overflow: hidden;    
+}
+
+section.content section#team-area div.team-member img {
+    width: 100%;
 }
 
 section.content section#team-area div.team-member h2 {
@@ -204,4 +210,38 @@ section.content section#team-area div.team-member h2 {
 
 section.content section#team-area div.team-member p {
     font-size: 16px;
+}
+
+footer.contato {
+    float: left;
+    width: 100%;
+    background-image: url('../images/space-background.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer.contato h1 {
+    color: #ffffff;
+    margin: 50px 0 40px 0;
+}
+
+footer.contato p {
+    color: #ffffff;
+    margin: 0 0 40px 0;
+}
+
+footer.contato p a{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer.contato p a i {
+    transition: .2s;
+}
+
+footer.contato p a:hover i {
+    transform: translateY(-5px) scale(1.1);
 }
