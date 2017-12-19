@@ -20,7 +20,7 @@ h3 {
 
 div.align {
     width: 90%;
-    max-width: 1366px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -166,6 +166,33 @@ section.content h1 {
     letter-spacing: 5px;
     color: #2b2055;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+section.content h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+section.content div.half {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+section.content div.half {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;    
+    min-height: 300px;
+}
+
+section.content div.half p {
+    font-size: 20px;
 }
 
 section.content p {
@@ -195,7 +222,7 @@ section.content section#team-area div.team-member div.imgCrop {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 section.content section#team-area div.team-member img {

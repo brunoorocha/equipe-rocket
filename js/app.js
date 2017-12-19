@@ -12,10 +12,10 @@ $(window).scroll(function(){
     if($(this).scrollTop() > 550 && $(this).scrollTop() < 700) {
         $(".active").removeClass("active");
         $("#missao").addClass("active");
-    } else if($(this).scrollTop() > 700 && $(this).scrollTop() < 900) {
+    } else if($(this).scrollTop() > 700 && $(this).scrollTop() < 1200) {
         $(".active").removeClass("active");
         $("#equipe").addClass("active");
-    } else if($(this).scrollTop() > 900) {
+    } else if($(this).scrollTop() > 1200) {
         $(".active").removeClass("active");
         $("#contato").addClass("active");
     } else {
